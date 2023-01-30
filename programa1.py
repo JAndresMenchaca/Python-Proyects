@@ -1,0 +1,6 @@
+print('Dame 3 numeros')
+num1 = int(input('1.- '))
+num2 = int(input('2.- '))
+num3 = int(input('3.- '))
+print('El numero mas grande es ', max(num1, num2, num3))
+print('El numero mas pequeño es ', min(num1, num2, num3))
