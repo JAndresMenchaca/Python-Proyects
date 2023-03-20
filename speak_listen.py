@@ -1,5 +1,6 @@
 import pyttsx3
 import speech_recognition as sr
+import pyaudio
 
 engine = pyttsx3.init()
 engine.setProperty("rate", 120)
